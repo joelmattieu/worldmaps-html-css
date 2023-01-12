@@ -7,7 +7,7 @@ export default function hamburgerMenu(){
         $btn.classList.toggle("is-active");
         $menu.classList.toggle("menu_opened");
       }
-      if (e.target.matches(".menu a")) {
+      if (e.target.matches(".nav-links a")) {
         $btn.classList.remove("is-active");
         $menu.classList.remove("menu_opened");
       }
